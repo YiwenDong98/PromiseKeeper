@@ -167,4 +167,9 @@ describe('unit-tests', function() {
 
     // throwing a promise in a reaction TODO test doesn't exist
     // describe('ThrowPromise', function() { runTests('ThrowPromise'); }); //
+
+    // test for simple case of acceptance
+    describe('SimpleAccept', function() { runTests('SimpleAccept'); });
+    describe('CatchDefault', function() { runTests('CatchDefault'); });
+    describe('WellTested', function() { runTests('WellTested'); });
 });
